@@ -37,3 +37,19 @@ body {
 .navbar-inverse {
     background-color: #512DA8;
 }
+
+.fa-calendar, .fa-clock-o {
+    background-color: #f5f5f0;
+    border: solid 1px lightgray;
+    padding: 11px;
+    border-radius: 2px;
+    
+}
+
+input[type="radio"] {
+    margin-left: 25px;
+}
+
+#orange {
+    background-color: coral;
+}
