@@ -7,7 +7,7 @@
     margin: 0px auto;
     padding: 50px 0px 50px 0px;
     border-bottom: 1px ridge;
-    min-height: 400px;
+    min-height: 300px;
 }
 
 .footer {
@@ -43,13 +43,22 @@ body {
     border: solid 1px lightgray;
     padding: 11px;
     border-radius: 2px;
-    
+ 
 }
 
 input[type="radio"] {
-    margin-left: 25px;
+    margin-left: 40px;
 }
 
-#orange {
+@media (max-width: 480px) { 
+
+    input[type="radio"] {
+    margin-left: 20px;
+}
+
+    }
+
+.orange {
     background-color: coral;
 }
+
