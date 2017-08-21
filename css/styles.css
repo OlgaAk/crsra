@@ -46,9 +46,13 @@ body {
  
 }
 
-input[type="radio"] {
-    margin-left: 40px;
+
+#guestnumradios > .radio-inline  {
+    margin-left: 0;
+    margin-right: 45px;
 }
+
+
 
 @media (max-width: 480px) { 
 
