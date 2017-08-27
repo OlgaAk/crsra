@@ -9,4 +9,22 @@ $(document).ready(function(){
          $("#carousel-button").children("span").removeClass("fa-play").addClass("fa-pause");
     }
 });
+
+$("#loginButton").click(function(){
+    $("#loginModal").modal('toggle')
+});
+
+$("#loginCloseButton, #loginCancelButton").click(function(){
+    $("#loginModal").modal('hide')
+});
+
+$("#reserveModalButton").click(function(){
+    $("#reserveModal").modal('toggle')
+});
+
+$("#reserveModalCloseButton, #reserveModalCancelButton").click(function(){
+    $("#reserveModal").modal('hide')
+});
+
+
 });

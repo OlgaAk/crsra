@@ -70,3 +70,37 @@ body{
     position: absolute;
     bottom: 0px;
 } 
+
+.modal {
+    .modal-header {
+        background-color: $background-dark;
+        color: floralwhite;
+
+        button {
+            color: floralwhite
+        }
+    }
+    .modal-body {
+        background-color: $background-pale;
+    }
+    .modal-footer {
+        background-color: $background-light;
+    }
+}
+
+.input-group {
+    position: relative;
+    .input-group-adon {
+        position: absolute;
+        z-index: 999;
+      padding: 0 10px;
+      height: 100%;
+      border-right: 1px solid $lt-gray;
+      i { 
+           padding-top: 10px;            
+        }
+    }
+    .form-control {
+        padding-left: 40px;
+    }
+}
